@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
@@ -67,3 +68,7 @@ export default tseslint.config([
   },
 ])
 ```
+=======
+# Travito
+The amazing,intelligent trip planner and trip partner powered by Real-Time Web Data and AI.
+>>>>>>> 350f2c9ab2795e09487d0eebf19144546262e7d3
