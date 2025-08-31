@@ -1,0 +1,34 @@
+/* NewTripPage.css */
+
+.new-trip-page-container {
+  /* Renamed from .App to avoid conflict */
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Map takes full screen */
+.map-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+
+/* Overlay container for form */
+.overlay-form {
+  position: absolute;
+  top: 2%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1; /* in front of map */
+  background: rgba(255, 255, 255, 0.85); /* semi-transparent bg */
+  padding: 8px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  max-width: 50%;
+  width: 100%;
+}

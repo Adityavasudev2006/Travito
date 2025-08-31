@@ -1,0 +1,19 @@
+my-react-app/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Header/
+│   │   │   ├── Header.tsx
+│   │   │   └── Header.css
+│   │   ├── Mapsamp/
+│   │   │   └── Mapsamp.tsx
+│   ├── pages/
+│   │   ├── HomePage/
+│   │   │   ├── HomePage.tsx
+│   │   │   └── HomePage.css
+│   │   ├── NewTripPage/
+│   │   │   ├── NewTripPage.tsx 
+│   │   │   └── NewTripPage.css 
+│   ├── App.tsx
+│   └── index.tsx
+└── package.json
